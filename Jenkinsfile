@@ -17,6 +17,7 @@ steps {
  bat 'mvn sonar:sonar'
  }
 }
+  }
 stage('JaCoCo Report') {
 steps {
 jacoco()
