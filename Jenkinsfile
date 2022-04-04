@@ -23,5 +23,15 @@ steps {
 jacoco()
 }
 }
+    stage('Build Docker Image') {
+steps {
+
+}
+}
+    stage('Push Docker Image To DockerHub') {
+steps {
+
+}
+}
 }
 }
