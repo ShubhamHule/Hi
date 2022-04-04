@@ -1,0 +1,3 @@
+com\zensar\webapp\WebAppApplication.class
+com\zensar\webapp\rest\controller\HelloRestController.class
+com\zensar\webapp\ServletInitializer.class
