@@ -30,7 +30,7 @@ bat 'docker build -t shubhamhule/test .'
 }
     stage('Push Docker Image To DockerHub') {
 steps {
- bat 'docker login -u shubhamhule -p NarutoUzumaki@106'
+ bat 'docker login -u username -p password'
 bat 'docker push shubhamhule/test'
 }
 }
