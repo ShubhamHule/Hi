@@ -25,12 +25,13 @@ jacoco()
 }
     stage('Build Docker Image') {
 steps {
-echo 'Building Docker Image'
+bat 'docker build -t shubhamhule/test .'
 }
 }
     stage('Push Docker Image To DockerHub') {
 steps {
-echo 'Pushing Docker Image'
+ bat 'docker login -u shubhamhule -p NarutoUzumaki@106'
+bat 'docker push shubhamhule/test'
 }
 }
 }
